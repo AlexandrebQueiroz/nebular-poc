@@ -1,0 +1,126 @@
+<div class="row">
+  <div class="col-12">
+    <nb-card>
+      <nb-card-header class="text-center">
+        Dashboard Operacional
+      </nb-card-header>
+    </nb-card>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-lg-4">
+    <nb-card status="info">
+
+      <nb-card-header class="text-center">
+        Quantidade de alertas gerados - 05/09 12:29
+      </nb-card-header>
+
+      <nb-card-body>
+        <ngx-bar-chart [data]=dataOne>
+        </ngx-bar-chart>
+      </nb-card-body>
+
+    </nb-card>
+  </div>
+
+  <div class="col-lg-4">
+    <nb-card status="info">
+
+      <nb-card-header class="text-center">
+        Resultado da fiscalização - 05/09 12:29
+      </nb-card-header>
+
+      <nb-card-body>
+        <ngx-bar-chart [data]=dataTwo>
+        </ngx-bar-chart>
+      </nb-card-body>
+
+    </nb-card>
+  </div>
+
+  <div class="col-lg-4">
+    <nb-card status="info">
+
+      <nb-card-header class="text-center">
+        Alertas com resultado - 05/09 12:29
+      </nb-card-header>
+
+      <nb-card-body>
+        <ngx-bar-chart [data]=dataThre>
+        </ngx-bar-chart>
+      </nb-card-body>
+
+    </nb-card>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <nb-card>
+      <nb-card-header class="text-center">
+        Gráficos
+      </nb-card-header>
+    </nb-card>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-8 col-12">
+    <nb-card status="info">
+      <nb-card-header class="text-center">
+        Quantidade de DFE's na SEFAZ-GO X Ingeridos no FIS de Junho a Agosto 2017
+      </nb-card-header>
+      <nb-card-body>
+        <ngx-bar-chart-verfical [data]="dataFour">
+        </ngx-bar-chart-verfical>
+      </nb-card-body>
+    </nb-card>
+
+  </div>
+
+  <div class="col-md-4 col-12">
+    <nb-card status="info">
+      <nb-card-header class="text-center">
+        Quantidade de Contribuintes Cadastrados - 05/09
+      </nb-card-header>
+      <nb-card-body>
+        <ngx-charts-pie-chart>
+        </ngx-charts-pie-chart>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-md-6 col-12">
+    <nb-card status="info">
+
+      <nb-card-header class="text-center">
+        Quantidade de Registros de Passagens - 15/08/2017 15:57
+      </nb-card-header>
+
+      <nb-card-body>
+        <ngx-bar-chart-verfical [data]="dataSix">
+        </ngx-bar-chart-verfical>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+  <div class="col-md-6 col-12">
+    <nb-card status="info">
+
+      <nb-card-header class="text-center">
+        Quantidade de Registros na Black List - 15/08/2017
+      </nb-card-header>
+
+      <nb-card-body>
+        <ngx-bar-chart-verfical [data]="dataSeven">
+        </ngx-bar-chart-verfical>
+      </nb-card-body>
+    </nb-card>
+  </div>
+
+
+
+</div>
